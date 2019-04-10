@@ -7,5 +7,5 @@ now containing:
   dataset : [here](https://github.com/z17176/Chinese_conversation_sentiment)  
   methods : 
   * CNN  
-  * RNN(now working...)  
+  * RNN  
 
