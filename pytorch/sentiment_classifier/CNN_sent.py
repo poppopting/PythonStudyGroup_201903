@@ -1,3 +1,7 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 class CNN_sent(nn.Module):   
     def __init__(self,
                  num_words:int ,
