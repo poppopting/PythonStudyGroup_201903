@@ -33,7 +33,7 @@ class CNN_sent(nn.Module):
         if pre_train_emb:
             self.embedding = nn.Embedding.from_pretrained(pre_train_emb)
         else:
-            self.embedding = nn.Embedding(num_words,emb_dim)
+            self.embedding = nn.Embedding(num_words,emb_dim,padding_idx=0)
         self.conv_list = nn.ModuleList([nn.Conv2d(1,oc,(height,emb_dim)) 
                                             for oc,height in zip(out_channels,conv_heights) ])
         self.pool = nn.AdaptiveMaxPool1d(1)
