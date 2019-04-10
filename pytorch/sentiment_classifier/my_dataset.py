@@ -37,7 +37,7 @@ class MyDataset(Dataset):
                     cur_index += 1
             self.indexlines.append([self.word2index[word] for word in words])
         self.wordcounts = cur_index
-        self.max_line_length = len(max(train_dataset.indexlines,key=lambda x:len(x)))
+        self.max_line_length = len(max(self.indexlines,key=lambda x:len(x)))
         if pad_zero:
             self.indexlines = [line+[0]*(self.max_line_length-len(line)) 
                                         for line in self.indexlines]
