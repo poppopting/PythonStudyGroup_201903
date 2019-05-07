@@ -12,11 +12,11 @@ train_path = 'data/sentiment_XS_30k.txt'
 test_path = 'data/sentiment_XS_test.txt'
 
 
-def label_line_io(path):
+def label_line_io(path,encoding):
     'input data'
     labels = []
     lines = []
-    with open(path,'rt') as f:
+    with open(path,'rt',encoding=encoding) as f:
         for l in islice(f,1,None):
             lab,line = l.strip("\n").split(",")
             if len(line.split(" "))>10:
