@@ -6,4 +6,4 @@
 - week4 Pytorch CNN (hyades)
 - week5 PIL & data visualization (Road & John)
 - week6 Pytorch RNN (Ting)
-- week7 tkinter & OOP ( & jimmy)
+- week7 tkinter & OOP (yc & jimmy)
