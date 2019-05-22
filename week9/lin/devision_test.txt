@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "<ipython-input-12-2315d33839a4>", line 6, in division
+    return x / y
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "<ipython-input-12-2315d33839a4>", line 6, in division
+    return x / y
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "<ipython-input-12-2315d33839a4>", line 6, in division
+    return x / y
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "<ipython-input-12-2315d33839a4>", line 6, in division
+    return x / y
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "<ipython-input-15-0bc55606d306>", line 6, in division
+    return x / y
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "<ipython-input-15-0bc55606d306>", line 6, in division
+    return x / y
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "<ipython-input-15-0bc55606d306>", line 6, in division
+    return x / y
+ZeroDivisionError: division by zero
+Traceback (most recent call last):
+  File "<ipython-input-15-0bc55606d306>", line 6, in division
+    return x / y
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
